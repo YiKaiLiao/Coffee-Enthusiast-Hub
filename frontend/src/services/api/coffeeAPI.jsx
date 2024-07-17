@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const getRandomCoffeeImage = async () => {
+export const getRandomCoffeeImage = async () => {
   try {
     const response = await axios.get(
       `${process.env.REACT_APP_BACEND_URL}/random-coffee-image/`
@@ -12,4 +12,14 @@ const getRandomCoffeeImage = async () => {
   }
 };
 
-export default getRandomCoffeeImage;
+export const getCoffeeProducts = async () => {
+  try {
+    const response = await axios.get(
+      `${process.env.REACT_APP_BACEND_URL}/get-coffee-products/`
+    );
+    return response.data;
+  } catch (error) {
+    console.error("Error fetching coffee products:", error);
+    throw error;
+  }
+};

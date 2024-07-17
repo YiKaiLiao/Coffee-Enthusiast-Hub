@@ -11,14 +11,11 @@ const Header = () => (
       <Button color="inherit" component={Link} to="/">
         Home
       </Button>
-      <Button color="inherit" component={Link} to="/gallery">
-        Coffee Gallery
-      </Button>
       <Button color="inherit" component={Link} to="/journal">
         Coffee Journal
       </Button>
-      <Button color="inherit" component={Link} to="/about">
-        About Coffee
+      <Button color="inherit" component={Link} to="/products">
+        Coffee Products
       </Button>
     </Toolbar>
   </AppBar>

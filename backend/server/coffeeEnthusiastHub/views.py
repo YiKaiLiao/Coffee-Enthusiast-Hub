@@ -15,3 +15,9 @@ def random_coffee_image(request):
     response = requests.get('https://coffee.alexflipnote.dev/random.json')
     data = response.json()
     return Response(data)
+
+@api_view(['GET'])
+def all_coffee_products(request):
+    response = requests.get('https://fake-coffee-api.vercel.app/api')
+    data = response.json()
+    return Response(data)

@@ -4,10 +4,10 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import HowItWorks from "./components/HowItWorks";
-import RandomCoffeeImage from "./components/RandomCoffeeImage";
-import CoffeeGalleryPage from "./pages/CoffeeGalleryPage";
+import CoffeeTrivia from "./components/CoffeeTrivia";
 import AddEntryForm from "./pages/CoffeeJournalPage/AddEntryForm";
 import JournalEntries from "./pages/CoffeeJournalPage/JournalEntries";
+import CoffeeProductsPage from "pages/CoffeeProductsPage";
 // styles
 import { ThemeProvider, CssBaseline } from "@mui/material";
 import theme from "./theme/theme";
@@ -31,11 +31,10 @@ const App = () => {
               <>
                 <HeroSection />
                 <HowItWorks />
-                <RandomCoffeeImage />
+                <CoffeeTrivia />
               </>
             }
           />
-          {/* <Route path="/gallery" element={<CoffeeGalleryPage />} /> */}
           <Route
             path="/journal"
             element={
@@ -45,6 +44,7 @@ const App = () => {
               </>
             }
           />
+          <Route path="/products" element={<CoffeeProductsPage />} />
         </Routes>
       </Router>
     </ThemeProvider>
