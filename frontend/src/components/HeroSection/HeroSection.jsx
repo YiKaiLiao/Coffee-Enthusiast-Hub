@@ -1,11 +1,11 @@
 import React from "react";
 import { Container, Typography, Box } from "@mui/material";
+import cover from "assets/coffee-hero-bg2.png";
 
 const HeroSection = () => (
   <Box
     sx={{
-      background:
-        "url(/path/to/coffee-hero-bg.jpg) no-repeat center center/cover",
+      background: `url(${cover}) no-repeat center center/cover`,
       color: "white",
       py: 8,
       textAlign: "center",
