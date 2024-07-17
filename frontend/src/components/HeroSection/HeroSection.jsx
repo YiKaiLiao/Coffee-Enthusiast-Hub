@@ -13,7 +13,7 @@ const HeroSection = () => (
   >
     <Container maxWidth="md">
       <Typography variant="h2" gutterBottom>
-        Welcome to Coffee Enthusiast Hub
+        Coffee Enthusiast Hub
       </Typography>
       <Typography variant="h5">
         Your place to discover, review, and enjoy coffee.

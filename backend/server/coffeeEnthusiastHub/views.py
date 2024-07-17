@@ -12,6 +12,6 @@ class JournalEntryViewSet(viewsets.ModelViewSet):
 
 @api_view(['GET'])
 def random_coffee_image(request):
-    response = requests.get('https://coffee.alexflipnote.dev/random')
+    response = requests.get('https://coffee.alexflipnote.dev/random.json')
     data = response.json()
     return Response(data)
