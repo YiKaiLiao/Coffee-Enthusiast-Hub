@@ -8,7 +8,7 @@ import HowItWorks from "./components/HowItWorks";
 import CoffeeTrivia from "./components/CoffeeTrivia";
 import AddEntryForm from "./pages/CoffeeJournalPage/AddEntryForm";
 import JournalEntries from "./pages/CoffeeJournalPage/JournalEntries";
-import CoffeeProductsPage from "pages/CoffeeProductsPage";
+import CoffeeProductsPage from "./pages/CoffeeProductsPage";
 // styles
 import { ThemeProvider, CssBaseline } from "@mui/material";
 import theme from "./theme/theme";

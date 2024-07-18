@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 // services
-import { getRandomCoffeeImage } from "services/api/coffeeAPI";
+import { getRandomCoffeeImage } from "../../services/api/coffeeAPI";
 // mui
 import {
   Container,
