@@ -171,7 +171,7 @@ sudo vim /etc/nginx/sites-available/Coffee-Enthusiast-Hub
 ```sh
 server {
 listen 80;
-# server_name YOUR_INSTANCE_IP_ADDRESS;
+# server_name YOUR_INSTANCE_IP_ADDRESS; --> use the associated Elastic IP address
 server_name 3.132.134.130;
 
 location = /favicon.ico { access_log off; log_not_found off; }
@@ -221,10 +221,12 @@ sudo systemctl status gunicorn.socket
 sudo systemctl status nginx
 ```
 
-7. Debug Gunicorn and Nginx errors with:
+7. Troubleshooting
 
 ```sh
+# Check Gunicorn logs:
 sudo tail -n 50 /var/log/nginx/error.log
+# Check Nginx logs:
 journalctl -u gunicorn.service
 ```
 
@@ -263,3 +265,7 @@ OpenSSH (v6)               ALLOW       Anywhere (v6)
 80/tcp (v6)                ALLOW       Anywhere (v6)
 443/tcp (v6)               ALLOW       Anywhere (v6)
 ```
+
+### 14. Verify Deployment
+
+Open your browser and navigate to your domain or public IP (http://your_domain.com or http://your_public_ip). You should see your Django application running. Alternatively, try sending a Http request to your public IP using Postman.
