@@ -4,7 +4,7 @@ This is the backend for the Coffee Enthusiast Hub application, built with Django
 
 ## Requirements
 
-- Python 3.x
+- Python 3.11.5
 - pip (Python package installer)
 - Virtualenv (recommended)
 
