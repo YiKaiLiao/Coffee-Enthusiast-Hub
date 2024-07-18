@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-ycgb=*fvfomp-a-es$9yi48=a7myzj%5!$kv*x^k76)i%q1v-5
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -57,6 +57,7 @@ MIDDLEWARE = [
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
     'http://127.0.0.1:3000',
+    'http://coffee-enthusiast-hub.s3-website.us-east-2.amazonaws.com',
 ]
 
 ROOT_URLCONF = 'server.urls'
