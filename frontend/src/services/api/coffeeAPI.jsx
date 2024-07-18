@@ -15,7 +15,7 @@ export const getRandomCoffeeImage = async () => {
 export const getCoffeeProducts = async () => {
   try {
     const response = await axios.get(
-      `${process.env.REACT_APP_BACEND_URL}/get-coffee-products/`
+      `${process.env.REACT_APP_BACEND_URL}/all-coffee-products/`
     );
     return response.data;
   } catch (error) {

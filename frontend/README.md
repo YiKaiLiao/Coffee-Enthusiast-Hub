@@ -11,8 +11,8 @@ This is the frontend for the Coffee Enthusiast Hub application, built with React
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/your-username/coffee-enthusiast-hub-frontend.git
-   cd coffee-enthusiast-hub-frontend
+   git clone https://github.com/YiKaiLiao/Coffee-Enthusiast-Hub.git
+   cd ./frontend
    ```
 2. **Install dependencies:**
    ```sh

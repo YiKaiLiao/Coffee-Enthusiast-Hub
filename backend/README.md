@@ -13,7 +13,7 @@ This is the backend for the Coffee Enthusiast Hub application, built with Django
 1. **Clone the repository:**
    ```sh
    git clone https://github.com/YiKaiLiao/Coffee-Enthusiast-Hub.git
-   cd ./backend
+   cd ./backend/server
    ```
 2. **Create and activate a virtual environment (optional but recommended):**
    ```sh
@@ -36,6 +36,7 @@ This is the backend for the Coffee Enthusiast Hub application, built with Django
 ## API Endpoints
 
 - `GET /random-coffee-image/`: Fetches a random coffee image.
+- `GET /all-coffee-products/`: Fetches all coffee products details.
 - `GET /journal-entries/`: Retrieves all journal entries.
 - `POST /journal-entries/`: Creates a new journal entry.
 - `GET /journal-entries/:id/`: Retrieves a specific journal entry by ID.

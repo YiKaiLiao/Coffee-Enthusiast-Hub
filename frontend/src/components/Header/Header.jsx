@@ -6,7 +6,9 @@ const Header = () => (
   <AppBar position="static">
     <Toolbar>
       <Typography variant="h6" sx={{ flexGrow: 1 }}>
-        Coffee Enthusiast Hub
+        <Button color="inherit" component={Link} to="/">
+          Coffee Enthusiast Hub
+        </Button>
       </Typography>
       <Button color="inherit" component={Link} to="/">
         Home

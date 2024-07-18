@@ -9,5 +9,5 @@ urlpatterns = [
     path('', include(router.urls)),
     path('api-auth/', include('rest_framework.urls')),
     path('random-coffee-image/', random_coffee_image, name='random-coffee-image'),
-    path('get-coffee-products/', all_coffee_products, name='get-coffee-products'),
+    path('all-coffee-products/', all_coffee_products, name='all-coffee-products'),
 ]
