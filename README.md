@@ -7,7 +7,7 @@ Welcome to the **Coffee Enthusiast Hub**! This project is a web application desi
 - [Overview](#overview)
 - [Tech Stack](#tech-stack)
 - [Architecture](#architecture)
-- - [Features](#features)
+- [Features](#features)
   - [Frontend Pages](#frontend-pages)
   - [API Endpoints](#api-endpoints)
 - [Setup and Installation](#setup-and-installation)
