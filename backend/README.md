@@ -37,8 +37,4 @@ This is the backend for the Coffee Enthusiast Hub application, built with Django
 
 - `GET /random-coffee-image/`: Fetches a random coffee image.
 - `GET /all-coffee-products/`: Fetches all coffee products details.
-- `GET /journal-entries/`: Retrieves all journal entries.
-- `POST /journal-entries/`: Creates a new journal entry.
-- `GET /journal-entries/:id/`: Retrieves a specific journal entry by ID.
-- `PUT /journal-entries/:id/`: Updates a specific journal entry by ID.
-- `DELETE /journal-entries/:id/`: Deletes a specific journal entry by ID.
+- `GET /coffee-ingredients-data/`: Retrieves all coffee ingredients data.
