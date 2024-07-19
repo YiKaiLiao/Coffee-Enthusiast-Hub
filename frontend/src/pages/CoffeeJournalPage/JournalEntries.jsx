@@ -4,8 +4,9 @@ import { Box, Container, Paper, Typography } from "@mui/material";
 const JournalEntries = ({ entries }) => (
   <Box
     sx={{
-      background: "url(/path/to/brick-wall.jpg) no-repeat center center/cover",
+      background: `url(${process.env.PUBLIC_URL}/assets/red-brick-wall.jpg) no-repeat center center/cover`,
       py: 4,
+      minHeight: "30rem",
     }}
   >
     <Container maxWidth="lg" sx={{ display: "flex", flexWrap: "wrap", gap: 2 }}>
