@@ -12,6 +12,7 @@ Welcome to the **Coffee Enthusiast Hub**! This project is a web application desi
   - [API Endpoints](#api-endpoints)
 - [Setup and Installation](#setup-and-installation)
 - [Deployment](#deployment)
+- [Set up AWS CloudFront for CDN](#set-up-aws-cloudfront-for-cdn)
 
 ## Overview
 
@@ -121,5 +122,8 @@ The backend is a Django application hosted on an AWS EC2 instance. It serves API
 
 - **React Application**: Built and deployed to AWS S3. Served through AWS CloudFront for CDN.  [Read more](frontend/README_DEPLOYMENT.md)
 - **Django Backend**: Deployed on AWS EC2, served using Gunicorn and Nginx for optimal performance. [Read morre](backend/README_DEPLOYMENT.md)
+
+## Set up AWS CloudFront for CDN
+- [Guide](backend/README_CLOUDFRONT_SETUP.md)
   
 
