@@ -1,4 +1,4 @@
-# Deployment of Coffee Enthusiast Hub - Frontend to AWS EC2
+# Deployment of Coffee Enthusiast Hub - Django server to AWS EC2
 
 This document provides step-by-step instructions for deploying the Django server to AWS EC2.
 
