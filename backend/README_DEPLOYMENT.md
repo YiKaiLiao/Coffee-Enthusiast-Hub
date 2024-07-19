@@ -84,7 +84,8 @@ Edit settings.py:
 
 1. Set DEBUG = False
 2. Set ALLOWED_HOSTS to include your domain or public IP
-3. Configure DATABASES for your production database
+3. Set CORS_ALLOWED_ORIGINS to include your domain or public IP
+4. Configure DATABASES for your production database
 
 ### 10. Set up Django Project
 
