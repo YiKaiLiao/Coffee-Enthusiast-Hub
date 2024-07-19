@@ -8,6 +8,7 @@ import HowItWorks from "./components/HowItWorks";
 import CoffeeTrivia from "./components/CoffeeTrivia";
 import AddEntryForm from "./pages/CoffeeJournalPage/AddEntryForm";
 import JournalEntries from "./pages/CoffeeJournalPage/JournalEntries";
+import ExploreCoffeePage from "pages/ExploreCoffeePage";
 import CoffeeProductsPage from "./pages/CoffeeProductsPage";
 // styles
 import { ThemeProvider, CssBaseline } from "@mui/material";
@@ -49,6 +50,7 @@ const App = () => {
                 </>
               }
             />
+            <Route path="/explore" element={<ExploreCoffeePage />} />
             <Route path="/products" element={<CoffeeProductsPage />} />
           </Routes>
         </Router>

@@ -23,3 +23,15 @@ export const getCoffeeProducts = async () => {
     throw error;
   }
 };
+
+export const getCoffeeIngrdientsData = async () => {
+  try {
+    const response = await axios.get(
+      `${process.env.REACT_APP_BACEND_URL}/coffee-ingredients-data/`
+    );
+    return response.data;
+  } catch (error) {
+    console.error("Error fetching coffee ingredient data:", error);
+    throw error;
+  }
+};

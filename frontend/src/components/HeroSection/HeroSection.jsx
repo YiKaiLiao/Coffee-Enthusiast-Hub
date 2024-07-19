@@ -5,7 +5,7 @@ const HeroSection = () => (
   <Box
     sx={{
       background: `url(${process.env.PUBLIC_URL}/assets/coffee-hero-bg2.png) no-repeat center center/cover`,
-      color: "white",
+      color: "orange",
       py: 8,
       textAlign: "center",
     }}

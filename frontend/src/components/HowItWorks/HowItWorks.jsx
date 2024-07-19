@@ -16,7 +16,7 @@ const HowItWorks = () => (
       </Typography>
       <List>
         <ListItem>
-          <ListItemText primary="Discover new coffee through our gallery." />
+          <ListItemText primary="Discover new coffee through Explore Coffee." />
         </ListItem>
         <ListItem>
           <ListItemText primary="Add and manage your coffee reviews in your personal journal." />
